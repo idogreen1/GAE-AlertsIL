@@ -1,0 +1,26 @@
+{
+  "name": "gae-alertsil",
+  "version": "1.0.0",
+  "description": "AlertsIL ========",
+  "main": "proxy.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "got": "^12.0.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenido/GAE-AlertsIL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greenido/GAE-AlertsIL/issues"
+  },
+  "homepage": "https://github.com/greenido/GAE-AlertsIL#readme"
+}

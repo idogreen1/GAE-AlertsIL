@@ -161,7 +161,7 @@ function removeCDateTags(str) {
 //
 function fetchFeed(curFeed, curSource) {
   $.ajax({
-  url : 'proxy.php?url=' + encodeURIComponent(curFeed),
+  url : 'proxy.js?' + curFeed, //encodeURIComponent(curFeed),
   success  : function (data) {
     // check if we got something to work on.
     if (data ) {
