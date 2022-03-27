@@ -43,13 +43,15 @@ docker pull greenido/gae-alerts-il
   * http://www.oref.org.il/WarningMessages/Alert/alerts.json?v=1
   * (not working as of 11/2017) http://tzeva-adom.com/alerts.php?fmt=html&limit=2
 
-Deployment
-==========
+Deployment on Gcloud
+====================
 ```bash
 gcloud app deploy app.yaml --project alerts-il
-
 php -S localhost:8000
+
+OR check it on glitch: https://alerts-il.glitch.me/
 ```
+
 
 Resources
 =========
